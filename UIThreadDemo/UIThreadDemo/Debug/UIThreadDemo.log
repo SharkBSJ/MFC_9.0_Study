@@ -1,0 +1,39 @@
+﻿Build started 2019-10-01 오후 5:11:59.
+     1>Project "c:\Users\user\documents\visual studio 2010\Projects\UIThreadDemo\UIThreadDemo\UIThreadDemo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\UIThreadDemo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\UIThreadDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\UIThreadDemo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ChildView.cpp MainFrm.cpp UIThread.cpp UIThreadDemo.cpp
+         UIThreadDemo.cpp
+         UIThread.cpp
+         MainFrm.cpp
+         ChildView.cpp
+         Generating Code...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\UIThreadDemo.res" UIThreadDemo.rc 
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\user\documents\visual studio 2010\Projects\UIThreadDemo\Debug\UIThreadDemo.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\UIThreadDemo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\user\documents\visual studio 2010\Projects\UIThreadDemo\Debug\UIThreadDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\user\documents\visual studio 2010\Projects\UIThreadDemo\Debug\UIThreadDemo.lib" /MACHINE:X86 Debug\UIThreadDemo.res
+         Debug\UIThreadDemo.exe.embed.manifest.res
+         Debug\ChildView.obj
+         Debug\MainFrm.obj
+         Debug\stdafx.obj
+         Debug\UIThread.obj
+         Debug\UIThreadDemo.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\UIThreadDemo.exe.embed.manifest" /manifest Debug\UIThreadDemo.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         UIThreadDemo.vcxproj -> c:\users\user\documents\visual studio 2010\Projects\UIThreadDemo\Debug\UIThreadDemo.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\UIThreadDemo.unsuccessfulbuild".
+         Touching "Debug\UIThreadDemo.lastbuildstate".
+     1>Done Building Project "c:\Users\user\documents\visual studio 2010\Projects\UIThreadDemo\UIThreadDemo\UIThreadDemo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.04
